@@ -7,6 +7,7 @@
   font-weight: bold;
   font-size: 20px;
   line-height: 30px;
+  margin: 0 0 32px;
 }
 
 .card__list {
@@ -16,9 +17,7 @@
   flex-direction: column;
   gap: 16px;
 }
-.card__title {
-  margin: 0 0 32px;
-}
+
 .card__list-item {
   gap: 10px;
   font-family: "Noto Serif", "Times New Roman", serif;

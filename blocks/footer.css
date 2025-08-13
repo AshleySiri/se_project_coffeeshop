@@ -44,10 +44,11 @@
   opacity: 0.7;
 }
 
-.footer__social link {
+.footer__social-link {
   margin-bottom: 10px; /* except last child */
+  cursor: pointer;
 }
-.footer__social link :last-child {
+.footer__social-link:last-child {
   margin-bottom: 0;
 }
 

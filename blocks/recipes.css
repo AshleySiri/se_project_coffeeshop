@@ -4,6 +4,13 @@
   background-image: url(../images/se_project_2_files/background_recipes.svg);
   padding: 100px 80px 215px;
 }
+
+.recipes__iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9; /* Keeps the correct proportions */
+  border: none;
+}
+
 .recipes__title {
   margin: 0 0 24px;
   font-family: "Inter", "Arial", sans-serif;
@@ -39,4 +46,11 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
+}
+
+@media (max-width: 768px) {
+  .recipes__videos {
+    flex-direction: column;
+    align-items: center;
+  }
 }

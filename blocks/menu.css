@@ -16,6 +16,7 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
+  max-width: 780px;
 }
 .menu__subtitle {
   margin: 0 0 100px;
@@ -33,4 +34,5 @@
   flex-wrap: wrap;
   gap: 100px;
   justify-content: center;
+  max-width: 540px;
 }
