@@ -1,3 +1,4 @@
+/* General Styles */
 .menu {
   padding: 100px 0;
   display: flex;
@@ -9,30 +10,33 @@
   background-position: center;
   background-size: cover;
 }
+
 .menu__title {
-  margin: 0 0 24px;
   font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
   max-width: 780px;
+  margin: 0 0 24px;
+  text-align: center;
 }
+
 .menu__subtitle {
-  margin: 0 0 100px;
-  font-family: "Noto Serif", "Times New Roman", serif;
-  font-style: normal;
+  font-family: "Noto Serif", serif;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  max-width: 780px;
+  margin: 0 0 100px;
+  margin-bottom: 100px;
+  text-align: center;
 }
 .menu__cards {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
   display: flex;
   flex-wrap: wrap;
-  gap: 100px;
   justify-content: center;
-  max-width: 540px;
+  gap: 100px;
+  margin: 0 0 100px 0;
+  padding: 0;
+  list-style: none;
 }
