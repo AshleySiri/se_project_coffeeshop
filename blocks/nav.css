@@ -6,11 +6,12 @@
 .nav__logo {
   width: 105px;
   height: 39px;
-  margin-left: 15px;
+  position: relative;
+  top: 30px;
+  bottom: 30px;
 }
 .nav__links {
   display: flex;
-  align-items: center;
   column-gap: 20px;
   list-style-type: none;
   padding: 0;

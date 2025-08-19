@@ -3,6 +3,8 @@
   background-color: #0a2750;
   background-image: url(../images/se_project_2_files/background_recipes.svg);
   padding: 100px 80px 215px;
+  background-position: center;
+  background-size: cover;
 }
 
 .recipes__iframe {
@@ -51,7 +53,7 @@
   justify-content: space-between;
   width: 100%;
   margin-top: 12px;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;

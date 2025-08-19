@@ -1,11 +1,13 @@
 .header {
+  z-index: 1;
   padding: 30px 80px 40px;
-  background: center / cover no-repeat #fff
-    url(../images/se_project_2_files/background_header.svg);
-  position: relative;
+  background: center / cover no-repeat #fff url
+    "C:\Users\Johnny Bravo\Desktop\se_project_2_files\se_project_2_files\inside_coffee_shop.png";
   height: 800px;
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
+  position: relative;
 }
 
 .header__title {
@@ -32,11 +34,12 @@
   line-height: 30px;
 }
 .header__image {
-  position: absolute;
+  z-index: -1;
   top: 124px;
   right: 5px;
   width: 646px;
   height: 568px;
+  position: absolute;
 }
 
 .header__footer {

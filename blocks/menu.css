@@ -22,7 +22,7 @@
 }
 
 .menu__subtitle {
-  font-family: "Noto Serif", serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
@@ -36,7 +36,7 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 100px;
-  margin: 0 0 100px 0;
+  margin: 0 0 0 0;
   padding: 0;
   list-style: none;
 }
