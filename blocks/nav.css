@@ -7,8 +7,8 @@
   width: 105px;
   height: 39px;
   position: relative;
-  top: 30px;
-  bottom: 30px;
+  top: 0px;
+  left: -50px;
 }
 .nav__links {
   display: flex;

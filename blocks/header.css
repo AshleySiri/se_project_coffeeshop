@@ -1,8 +1,7 @@
 .header {
   z-index: 1;
   padding: 30px 80px 40px;
-  background: center / cover no-repeat #fff url
-    "C:\Users\Johnny Bravo\Desktop\se_project_2_files\se_project_2_files\inside_coffee_shop.png";
+  background: center / cover no-repeat #fff url("../images/se_project_2_files/background_header.svg");
   height: 800px;
   display: flex;
   flex-direction: column;
