@@ -7,3 +7,26 @@
   line-height: 20px;
   box-sizing: border-box;
 }
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .page {
+    padding: 16px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 40px;
+    line-height: 1.1;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+}
